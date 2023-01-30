@@ -1,0 +1,63 @@
+.bg-oferta{
+    background-image: url("fondo.webp");
+}
+.tituloOferta{
+    text-align: center;
+    background-color: rgb(203, 50, 52);
+}
+article{
+    border-radius: 5%;
+    text-align: center;
+    img{
+        width: 300px;
+        height: 300px;
+        border-radius: 5%;
+    }
+    .cant-prod{
+        display: inline-block;
+    }
+}
+
+.back-demasProd{
+    background-color: lightgray;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.info-cliente{
+    display: flex;
+    background-color: lightgreen;
+}
+
+.listaDemasProd{
+    display: flex;
+    justify-content: center;
+    :hover{
+        background-color: lightgreen;
+        border-radius: 5%;
+    }
+}
+
+.newProduct{
+    background-color: rgb(203, 50, 52);
+    display: inline-block;
+    margin: 10px;
+    width: 20vw;
+    h3{
+        
+        background-image: url("../Media/fondo.webp");
+    }
+}
+
+.prod-individual{
+    text-align: left;
+    background-color: lightblue;
+    border-style: solid;
+    border-color: lightgray;
+    padding: 10px;
+    margin: 5px;
+}
+
+.carrito-compra{
+    background-color: lightgreen;
+}
